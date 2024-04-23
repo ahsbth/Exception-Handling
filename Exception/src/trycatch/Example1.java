@@ -5,7 +5,7 @@ public class Example1 {
     public static void main(String args[]){
     	Scanner sc=new Scanner(System.in);
     	
-    	
+    	System.out.println("Started.....");
     	
         
         try{
@@ -22,5 +22,6 @@ public class Example1 {
         catch(ArithmeticException e){
             System.out.println(e.getMessage());
         }
+        System.out.println("Terminated....");
     }
 }
